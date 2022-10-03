@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Poppins: 'Poppins', sans-serif;
+  --Volkov: 'Volkhov', serif;
+  --OpenSans: 'Open Sans', sans-serif;
+
+  --Orange: #df6951;
+  --Yellow: #f1a501;
+  --Button: #ffa90f;
+}
+
+body {
+  height: 100%;
+}
