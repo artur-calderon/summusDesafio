@@ -1,0 +1,66 @@
+.cardContainer {
+  display: flex;
+  width: 18rem;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: #fff;
+  -webkit-box-shadow: 1px 5px 13px -5px rgba(0, 0, 0, 0.13);
+  box-shadow: 1px 5px 13px -5px rgba(0, 0, 0, 0.13);
+  border-radius: 25px;
+}
+
+.cardContainer header {
+  width: 18rem;
+  border-radius: 25px 23px 0px 0px;
+  -webkit-border-radius: 25px 23px 0px 0px;
+  -moz-border-radius: 25px 23px 0px 0px;
+}
+.cardContainer header img {
+  object-fit: cover;
+  width: 100%;
+  height: 22rem;
+  border-radius: 25px 23px 0px 0px;
+}
+.cardContainer .bodyCard {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.bodyCard .title {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bodyCard .title strong {
+  font-family: var(--OpenSans);
+  font-size: 1rem;
+  color: #5e6282;
+}
+.bodyCard .title p {
+  font-family: var(--Poppins);
+  text-align: center;
+  color: #6246e5;
+}
+
+.bodyCard p {
+  align-self: flex-start;
+  display: flex;
+  gap: 1rem;
+  font-family: var(--Poppins);
+  color: #5e6282;
+  font-size: 0.8rem;
+  margin-left: 1rem;
+}

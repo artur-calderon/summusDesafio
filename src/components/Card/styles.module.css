@@ -1,0 +1,53 @@
+.cardContainer {
+  position: relative;
+  display: flex;
+  width: 15rem;
+  height: 18rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  cursor: pointer;
+  padding: 2.625rem 2.75rem;
+}
+.cardContainer:hover {
+  background: #ffffff;
+  -webkit-box-shadow: 1px 5px 13px -5px rgba(0, 0, 0, 0.13);
+  box-shadow: 1px 5px 13px -5px rgba(0, 0, 0, 0.13);
+  border-radius: 36px;
+  /* transition: all 0.2s; */
+}
+.cardContainer:hover::before {
+  position: absolute;
+  content: '. ';
+  width: 6.25rem;
+  height: 6.25rem;
+  background-color: #df6951;
+  border-radius: 30px 0px 10px;
+  top: 75%;
+  left: -30px;
+  z-index: -99;
+  /* transition: all 0.2s; */
+}
+.cardContainer header img {
+  width: 4rem;
+}
+.bodyCard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.bodyCard h1 {
+  font-family: var(--OpenSans);
+  font-size: 1rem;
+}
+.bodyCard p {
+  position: relative;
+  font-family: var(--Poppins);
+  width: 100%;
+  text-align: center;
+  color: #5e6282;
+}

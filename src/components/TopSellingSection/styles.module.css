@@ -1,0 +1,38 @@
+.container {
+  margin-top: 10rem;
+  padding: 0 3.5rem;
+}
+.container .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-direction: column;
+}
+.cabecalho {
+  text-align: center;
+}
+.cabecalho span {
+  font-family: var(--Poppins);
+  color: #ffa90f;
+  font-weight: 600;
+}
+
+.cabecalho h1 {
+  font-family: var(--Volkov);
+  font-size: 3.125rem;
+}
+
+.cards {
+  display: flex;
+  margin-top: 6rem;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5rem;
+  width: 100%;
+
+  background-image: url('../../assets/circles.png');
+  background-repeat: no-repeat;
+  background-position-x: 98%;
+  background-position-y: 80%;
+}
