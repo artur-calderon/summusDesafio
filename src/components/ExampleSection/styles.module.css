@@ -1,0 +1,55 @@
+.container {
+    margin-top: 2rem;
+    padding: 0 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+.example{
+    margin-left: 3rem;
+}
+
+.example >  span{
+    color: #FFA90F;
+    font-family: var(--Poppins);
+    font-weight: 600;
+}
+
+.example > h1{
+    font-family: var(--Volkov);
+    font-size: 3rem;
+}
+
+.example ul{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.example ul li{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 1rem;
+}
+
+.example ul li img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.example ul li div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: var(--Poppins);
+    color:#5E6282;
+    font-size: 0.85rem;
+}
