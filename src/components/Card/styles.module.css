@@ -32,6 +32,11 @@
 .cardContainer header img {
   width: 4rem;
 }
+
+.cardContainer header .plane {
+  width: 6.5rem;
+}
+
 .bodyCard {
   display: flex;
   flex-direction: column;

@@ -20,7 +20,7 @@ export function CategorySection() {
           </div>
           <div className={styles.cards}>
             <Card url={satelite} title='Calculated Weather' description='Built Wicket longer admire do barton vanity itself do in it.' />
-            <Card url={Plane} title='Best Flights' description='Engrossed listening. Park gate sell they west hard for the.' />
+            <Card url={Plane} plane title='Best Flights' description='Engrossed listening. Park gate sell they west hard for the.' />
             <Card url={Microfone} title='Local Events' description='Barton vanity itself do in it. Preferd to men it engrossed listening. ' />
             <Card url={Engrenagem} title='Customization' description='We deliver outsourced
 aviation services for
