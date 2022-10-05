@@ -1,23 +1,23 @@
-
-
 .container {
-    margin-top: 2rem;
-    padding: 0 7rem;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 10rem;
-    /* margin-left: 3rem; */
-  } 
-
-.testimonialsTitle span{
-    color: #FFA90F;
-    font-family: var(--Poppins);
-    font-weight: 600;
+  position: relative;
+  height: 10rem;
+  margin-top: 2rem;
+  padding: 0 7rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5rem;
+  /* margin-left: 3rem; */
 }
-.testimonialsTitle h1{
-    font-family: var(--Volkov);
-    font-size: 3rem;
+
+.testimonialsTitle span {
+  color: #ffa90f;
+  font-family: var(--Poppins);
+  font-weight: 600;
+}
+.testimonialsTitle h1 {
+  font-family: var(--Volkov);
+  font-size: 3rem;
 }
