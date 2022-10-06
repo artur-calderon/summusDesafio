@@ -160,6 +160,13 @@
     align-self: center;
     font-size: 2rem;
   }
+  
+  .info .text h1 span{
+
+    background:red;
+    width: auto;
+  }
+
   .info .text p {
     font-size: 0.7rem;
     width: 50%;
