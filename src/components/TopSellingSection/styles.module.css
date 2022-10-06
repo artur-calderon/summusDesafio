@@ -36,3 +36,21 @@
   background-position-x: 96%;
   background-position-y: 80%;
 }
+
+@media (max-width: 568px) {
+  .container {
+    padding: 0 1rem;
+    width: 100%;
+  }
+  .cards {
+    background: none;
+    width: 100%;
+    flex-direction: column;
+  }
+  .cabecalho span {
+    font-size: 0.8rem;
+  }
+  .cabecalho h1 {
+    font-size: 2rem;
+  }
+}

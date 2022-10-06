@@ -120,3 +120,49 @@
   align-items: center;
   cursor: pointer;
 }
+
+@media (max-width: 568px) {
+  .headerBack {
+    background: none;
+  }
+  .container {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .header {
+    align-items: center;
+    justify-content: center;
+  }
+  .info {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header ul,
+  .login,
+  .info > img {
+    display: none;
+  }
+  .info .text {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+  }
+  .info .text h3 {
+    font-size: 0.8rem;
+  }
+  .info .text h1 {
+    align-self: center;
+    font-size: 2rem;
+  }
+  .info .text p {
+    font-size: 0.7rem;
+    width: 50%;
+    text-align: left;
+  }
+}

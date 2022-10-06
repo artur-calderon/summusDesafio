@@ -24,7 +24,6 @@
 
 .logo h1 {
   font-family: var(--Poppins);
-
   font-weight: 500;
   color: #181e4b;
 }
@@ -122,4 +121,22 @@
   align-items: flex-start;
   font-size: 0.8rem;
   color: #5e6282;
+}
+@media (max-width: 568px) {
+  .container {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .all {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .app div {
+    display: flex;
+    gap: 1rem;
+  }
 }

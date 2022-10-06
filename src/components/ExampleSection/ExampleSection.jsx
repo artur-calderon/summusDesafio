@@ -23,7 +23,7 @@ export function ExampleSection() {
                         </div>
                     </li>
                     <li>
-                            <img src={airPort} alt="" />
+                        <img src={airPort} alt="" />
                         <div>
                             <strong>Make Payment</strong>
                             <p>Lorem ipsum dolor sit amet, consectetur
@@ -31,7 +31,7 @@ export function ExampleSection() {
                         </div>
                     </li>
                     <li>
-                            <img src={make} alt="" />
+                        <img src={make} alt="" />
                         <div>
                             <strong>Reach Airport on Selected Date</strong>
                             <p>Lorem ipsum dolor sit amet, consectetur

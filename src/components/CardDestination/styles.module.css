@@ -64,3 +64,10 @@
   font-size: 0.8rem;
   margin-left: 1rem;
 }
+
+@media (max-width: 568px) {
+  .cardContainer,
+  .cardContainer header {
+    width: 100%;
+  }
+}

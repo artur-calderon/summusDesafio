@@ -1,55 +1,81 @@
 .container {
-    margin-top: 2rem;
-    padding: 0 5rem;
+  margin-top: 2rem;
+  padding: 0 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.example {
+  margin-left: 3rem;
+}
+
+.example > span {
+  color: #ffa90f;
+  font-family: var(--Poppins);
+  font-weight: 600;
+}
+
+.example > h1 {
+  font-family: var(--Volkov);
+  font-size: 3rem;
+}
+
+.example ul {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.example ul li {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+.example ul li img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.example ul li div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: var(--Poppins);
+  color: #5e6282;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 568px) {
+  .container {
+    padding: 0 1rem;
+    flex-direction: column;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
   }
-
-.example{
-    margin-left: 3rem;
-}
-
-.example >  span{
-    color: #FFA90F;
-    font-family: var(--Poppins);
-    font-weight: 600;
-}
-
-.example > h1{
-    font-family: var(--Volkov);
-    font-size: 3rem;
-}
-
-.example ul{
-    margin-top: 2rem;
+  .example {
     display: flex;
     flex-direction: column;
-    gap: 4rem;
-}
-
-.example ul li{
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    gap: 1rem;
-}
-
-.example ul li img{
-    width: 2.5rem;
-    height: 2.5rem;
-}
-
-.example ul li div{
-    display: flex;
-    flex-direction: column;
-    gap: 0.2rem;
-    align-items: flex-start;
-    justify-content: center;
-    font-family: var(--Poppins);
-    color:#5E6282;
-    font-size: 0.85rem;
+    margin: 0;
+  }
+  .example span {
+    font-size: 0.8rem;
+  }
+  .example h1 {
+    display: inline;
+    font-size: 1.8rem;
+  }
+  .example ul {
+    gap: 2rem;
+  }
+  .container > div > img {
+    width: 30rem;
+  }
 }
